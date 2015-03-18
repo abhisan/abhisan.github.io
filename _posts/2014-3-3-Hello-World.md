@@ -1,10 +1,8 @@
 ---
 layout: post
-title: "You're up and running!"
+title: Optimistic locking VS Select for update
 published: true
 ---
-
-### Optimistic locking VS Select for update
 
 Your developer is mistaken. You need either SELECT ... FOR UPDATE or row versioning, not both. Try it and see. Open three MySQL sessions (A), (B) and (C) to the same database. In (C) issue:
 
