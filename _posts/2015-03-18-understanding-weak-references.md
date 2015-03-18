@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Optimistic locking VS Select for update
+title: Understanding Weak References
 published: true
 ---
 
