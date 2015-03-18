@@ -12,5 +12,4 @@ Some information about you!
 A place to include any other types of information that you'd like to include about yourself.
 
 ### Contact me
-sharma.abhi@yahoo.com
 [sharma.abhi@yahoo.com](mailto:sharma.abhi@yahoo.com)
