@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Optimistic locking VS Select for update
+title: Optimistic locking VS Select for update (Pessimistic locking)
 published: true
 ---
 
