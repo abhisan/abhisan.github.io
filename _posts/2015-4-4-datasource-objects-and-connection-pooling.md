@@ -1,3 +1,9 @@
+---
+layout: post
+title: DataSource objects and Connection pooling
+published: true
+---
+
 Applications access a data source by using a connection, and a DataSource object can be thought of as a factory for connections to the particular data source that the DataSource instance represents. In a basic DataSource implementation, a call to the getConnection method returns a connection object that is a physical connection to the data source.
 Connection pooling lets you reuse an existing connection instead of creating a new connection to the database. This is highly efficient in terms of memory allocation and speed of the request to the database.
 A DataSource object may be registered with a JNDI naming service. If so, an application can use the JNDI API to access that DataSource object, which can then be used to connect to the data source it represents.
